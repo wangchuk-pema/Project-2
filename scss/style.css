@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
+  transition: 0.2s ease-in;
+}
+
+a:hover {
+  color: rgb(38, 188, 38);
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+/* header section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 40px;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login {
+  background-color: white;
+  color: green;
+}
+
+.signup {
+  background-color: rgb(38, 188, 38);
+  color: white;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 60px;
+  padding-block: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-black {
+  font-size: 2.8rem;
+  color: rgb(52, 46, 46);
+  opacity: 0.9;
+}
+
+.hero-green {
+  color: rgb(22, 145, 22);
+  font-size: 2.8rem;
+  opacity: 0.8;
+  margin-top: -10px;
+}
+
+.register-btn {
+  width: 120px;
+  height: 45px;
+  background-color: rgb(38, 188, 38);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* community section */
+.community {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.community h2 {
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.community-boxes {
+  display: flex;
+  padding-block: 40px;
+  justify-content: space-between;
+  padding-inline: 150px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+}
+
+.box p {
+  opacity: 0.7;
+  font-size: 0.85rem;
+}
+
+/* unseen section */
+.unseen {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: "Poppins", sans-serif;
+  padding-inline: 80px;
+}
+
+.unseen-image {
+  width: 40%;
+}
+
+.unseen-content {
+  width: 60%;
+}
+
+.unseen-content h2 {
+  font-size: 1.8rem;
+  opacity: 0.8;
+}
+
+.unseen-content p {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.unseen-image img {
+  width: 100%;
+}
+
+/* helping section */
+.helping {
+  font-family: "Poppins", sans-serif;
+  padding-inline: 120px;
+  display: flex;
+  align-items: center;
+  padding-block: 50px;
+  gap: 200px;
+  background-color: #f5f7fa;
+}
+
+.green {
+  color: rgb(22, 145, 22);
+}
+
+.helping-box {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  gap: 4px;
+}
+
+.helping-box h2 {
+  opacity: 0.8;
+}
+
+.helping-box p {
+  font-size: 0.85rem;
+}
+
+.helping-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.helping-content {
+  width: 520px;
+}
+
+.learn {
+  margin-top: 40px;
+}
+
+.customer_section {
+  width: 100%;
+  background-color: #f5f7fa;
+  padding: 32px 0px;
+  gap: 78px;
+}
+.customer_section .container {
+  background-color: #f5f7fa;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+}
+.customer_section .container .image {
+  width: 30%;
+  margin-left: 1px;
+  border-radius: 8px;
+}
+.customer_section .container .sub_container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.customer_section .container .sub_container p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #717171;
+}
+.customer_section .container .sub_container h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4caf4f;
+}
+.customer_section .container .sub_container .phy {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+}
+.customer_section .container .sub_container .logo44 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer_section .container .sub_container .logo44 .one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.new_section {
+  background-color: #f5f7fa;
+  width: 100%;
+  gap: 16px;
+  padding: 50px 0px;
+}
+.new_section .container {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.new_section .container h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.new_section .container p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+.new_section .box_image {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 80px;
+  gap: 10px;
+}
+
+.demo_section {
+  width: 100%;
+  padding: 32px 0px 32px 0px;
+  gap: 32px;
+  background-color: rgb(245, 247, 250);
+}
+.demo_section .demo {
+  text-align: center;
+  margin-bottom: 95px;
+}
+.demo_section .demo h1 {
+  font-size: 68px;
+  font-weight: 600;
+}
+.demo_section .demo button {
+  width: 178px;
+  height: 52px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #4caf4f;
+  color: #ffffff;
+  border: #4caf4f;
+  margin-top: 20px;
+}
+
+/* footer section */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #263238;
+  color: white;
+  padding-block: 25px;
+  padding-inline: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo p {
+  font-size: 0.85rem;
+}
+
+.footer-list ul {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list ul li {
+  font-size: 0.9rem;
+}
+
+.footer-inputfield {
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(114, 109, 109);
+  margin-top: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-inline: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+i {
+  border: 1px solid rgb(49, 47, 47);
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(107, 106, 106);
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
